@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- json参数生成器 -->
+<JSONParams>
+	<!-- 包路径名称 -->
+	<packages>
+		<package-parent path="com.jsonparams.">
+			<package-child path="domain.">
+				<classes>
+					<class name="User">
+						<props>
+							<value name="aa" value="固定值" ifnull="" randdom="可能空，可能随机字，可能空也可能字" times=""/>
+						</props>
+					</class>
+					<class name="Ptttt">
+						<props>
+							<value name="bb" value="固定值" ifnull="" randdom="可能空，可能随机字，可能空也可能字" times=""/>
+						</props>
+					</class>
+					<exclusion-class> 
+						
+					</exclusion-class> 
+				</classes>
+			</package-child>
+			
+		</package-parent>
+		
+		
+		<package-parent path="com.json.paa.">
+			<package-child path="">
+				<classes>
+					<class name="LLL">
+						<props>
+							<value name="aa" value="固定值" ifnull="" ifranddom="可能空，可能随机字，可能空也可能字" forTimesBuildOnce=""/>
+							<value name="bb" value="固定值" ifnull="" ifranddom="可能空，可能随机字，可能空也可能字" forTimesBuildOnce=""/>
+						</props>
+					</class>
+					
+				</classes>
+			</package-child>
+			
+			<package-child path="com.json.paa.">
+				<classes>
+					<class name="aaaaaa">
+					<value>aaaa</value>
+					<value>bbbb</value>
+					<value>ccca</value>
+					</class>
+				</classes>
+			</package-child>
+		</package-parent>
+	</packages>
+</JSONParams>
